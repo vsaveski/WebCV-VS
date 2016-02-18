@@ -1,0 +1,244 @@
+body {
+	background-color: white;
+	font-family: "Source Sans Pro", "Open Sans", "Century Gothic", CenturyGothic, "Microsoft YaHei New", "Microsoft Yahei", "微软雅黑", 宋体, SimSun, 华文细黑, STXihei, 黑体, SimHei, sans-serif;
+}
+.not-upgraded-text {
+	display: none;
+}
+.cv-min-wrapper {
+	
+}
+
+.cv-min-holder {
+	max-width: 1000px;
+	background-color: gray;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #d9d9d9;
+	margin-bottom: 50px;
+}
+.cv-min-content {
+	overflow: auto;
+	padding: 60px;
+	background-color: white;
+	border-left: 40px solid #a3e4a3;
+}
+.cv-min-title-holder {
+	overflow: auto;
+	font-weight: 100 !important;
+	margin-bottom: 20px;
+	margin-right: -60px;
+}
+
+.cv-min-title {
+	float: left;
+	margin-top: 0px;
+	margin-left: 20px;
+}
+.cv-min-title h1 {
+	font-size: 70px !important;
+	font-weight: 100 !important;
+	text-transform: uppercase;
+}
+
+.cv-min-circle-holder {
+	float: left;
+}
+#circleute {
+	display: table-cell;
+	vertical-align: middle;
+	width:120px;
+	height:120px;
+	border-radius:50%;
+	text-align:center;
+	background:#a3e4a3 !important;
+	z-index: 10;
+}
+
+#circleinne {
+	display: inline-block;
+	width:107px;
+	height:107px;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	font-size: 70px;
+	color:#fff;
+	line-height:100px;
+	text-align:center;
+	background:#a3e4a3;
+	border: 2px solid white;
+	margin: auto;
+}
+.cv-min-avatar img {
+	max-width: 120px;
+	max-width: 120px;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+}
+
+.cv-min-contactarea-holder {
+	overflow: auto;	
+	padding: 15px;
+}
+.cv-min-contacts {
+	float: left;
+	width: 33%;
+	margin-bottom: 10px;
+}
+.cv-min-contacts a {
+	color: black !important;
+	text-decoration: none;
+} 
+.min-socialfont {
+	color: #a1e3a1;
+	font-size: 20px;
+	margin-right: 5px;
+}
+.cv-min-section-holder {
+margin-bottom: 40px;
+}
+.cv-min-heading h2 {
+	font-weight: 100;
+	font-size: 35px;
+}
+.cv-min-utbildning-holder {
+	width: 100%;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+
+.cv-min-utbildning-upperrow {
+	border-bottom: 1px solid #a3e4a3;
+	width: 100%;
+	overflow: auto;
+	padding-bottom: 4px;
+	margin-bottom: 4px;
+}
+.cv-min-utbildning-title {
+	font-size: 16px;
+	width: 50%;
+	float: left;
+	text-align: left;
+}
+.cv-min-utbildning-title p {
+	margin-bottom: 0px;
+}
+.cv-min-utbildning-year {
+	font-size: 16px;
+	width: 50%;
+	float: left;
+	text-align: right;
+}
+.cv-min-utbildning-year p {
+	margin-bottom: 0px;
+}
+.cv-min-utbildning-content {
+	width: 100%;
+}
+
+@media (min-width: 100px) and (max-width: 767px) {
+.cv-min-contactarea-holder {
+
+}
+.cv-min-contacts {
+	width: 50%;
+}
+.cv-min-utbildning-title {
+	width: 100%;
+}
+.cv-min-utbildning-year {
+	width: 100%;
+	text-align: left;
+}
+.cv-min-title h1 {
+	font-size: 40px !important;
+	margin-top: 9px;
+}
+
+#circleute {
+	display: table-cell;
+	vertical-align: middle;
+	width:60px;
+	height:60px;
+	border-radius:50%;
+	text-align:center;
+	background:#a3e4a3 !important;
+	z-index: 10;
+}
+
+#circleinne {
+	display: inline-block;
+	width:54px;
+	height:54px;
+	border-radius: 100%;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	font-size: 35px;
+	color:#fff;
+	line-height:50px;
+	text-align:center;
+	background:#a3e4a3;
+	border: 2px solid white;
+	margin: auto;
+}
+
+.cv-min-content { 
+	border-left: none;
+	padding: 30px;
+}
+
+}
+@media (min-width: 768px) and (max-width: 950px) {
+
+
+}
+@media (min-width: 951px) and (max-width: 1180px) {
+
+   }
+@media (min-width: 1180px) {
+
+}
+
+@media print {
+a[href]:after {
+    content: none !important;
+}
+  
+.cv-min-utbildning-holder { 
+	page-break-inside: avoid !important;  
+  }
+h2 {
+	  page-break-after: avoid !important;  
+}
+.not-upgraded-text {
+	position:absolute;
+    left: 50%;
+    width: 1000px;
+    margin-left: -500px;
+    margin-top: 30%;
+	transform:rotate(300deg);   
+    -webkit-transform:rotate(300deg);
+    background: black !important;
+    color: white !important;
+	font-size: 50px;
+	display: block;
+	text-align: center;
+}
+
+.cv-min-holder {
+	width: 100%;
+	background-color: gray;
+	margin-left: auto;
+	margin-right: auto;
+	border: none !important;
+	margin-bottom: 50px;
+}
+.cv-min-wrapper {
+	margin-top: -50px !important;
+}
+.nobreak-heading {
+	page-break-inside: avoid !important;  	
+}
+}

@@ -1,0 +1,36 @@
+.top-reklam-white {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1000px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	overflow: auto;
+}
+.top-reklam-gray {
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1030px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+		overflow: auto;
+}
+.top-reklam-text {
+	text-align: right;
+}
+.maila-person-white {
+	padding: 7px;
+	border: 1px solid white;
+	border-radius: 2px;
+	color: white !important;
+	font-size: 13px;
+	text-decoration: none !important;
+}
+.maila-person-gray {
+	padding: 7px;
+	border: 1px solid gray;
+	border-radius: 2px;
+	color: gray !important;
+	font-size: 13px;
+	text-decoration: none !important;
+	
+}
